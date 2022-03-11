@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Carol</title>
+    <link rel="stylesheet" href="CSS/carol.css">
+</head>
+<body>
+    <style>
+        section {
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+    <header>
+        <h1>Ana Carolina</h1>
+    </header>
+    <section>
+        <div id="foto" class="foto">
+            <img id="imagem" src="Imagens/borda.png" alt="Foto da Carol">
+        </div>
+        <div>
+            <p>Digite uma data: <input type="date" name="num" id="txtdia" class="texto-data">
+        <input type="button" value="Consultar" onclick="carregar()"></p>
+        </div>
+        <div id="res">
+            Quais são as datas mais impactantes do nosso relacionamento e da sua via?
+        </div>
+        <video id="video" controls poster="Imagens/carolfoto1.png"></video>
+    </section>
+    <footer>
+        <p>&copy; JimmySite</p>
+    </footer>
+    <script src="JS/carol.js"></script>
+    
+</body>
+</html>
